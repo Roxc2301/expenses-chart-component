@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;900&family=Roboto:wght@400;700;900&display=swap');
+*{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+div{
+    border-radius: 10px;
+}
+body {
+    z-index: -1;
+    background-color: hsl(27, 66%, 92%);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+li{
+    display: inline;
+    list-style-type: none;
+}
+.balance{
+    background-color: hsl(10, 79%, 65%);
+    color: hsl(33, 100%, 98%);
+}
+.spending{
+    background-color: hsl(33, 100%, 98%);
+}
+#balance{
+    margin: 20px;
+    height: 40px;
+}
+#balance p{
+    margin-bottom: 3px;
+    font-size: 11px;
+}
+#balance h2{
+    font-weight: 700;
+    font-size: 22px;
+}
+#balance img{
+    position: relative;
+    left: 230px;
+    bottom: 60px;
+}
+.spending{
+    padding: 15px;
+    width: 350px;
+    height: 365px;
+}
+.spending h1{
+    font-weight: 700;
+    justify-content: left;
+    font-size: 25px;
+}
+#percent{
+    font-weight: 700;
+    font-size: 15px;
+}
+#from-month{
+    color: gray;
+    font-size: 12px;
+    justify-content: right;
+}
+#total-month{
+    font-weight: 900;
+    font-size: 32px;
+}
+#bottom{
+    border-top: solid;
+    border-radius: 0;
+    border-top-color: hsl(10, 79%, 65%, 0.1);
+}
