@@ -1,0 +1,2 @@
+command = "npm run build"  # or any other build command you use
+publish = "src" 
