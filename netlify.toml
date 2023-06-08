@@ -1,2 +1,3 @@
-command = "npm run build"  # or any other build command you use
-publish = "src" 
+[build]
+  command = "npm run build"  # or any other build command you use
+  publish = "src"            # the output directory containing the built files
